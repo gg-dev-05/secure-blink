@@ -1,0 +1,18 @@
+@import'../globals/global';
+#rectangle {
+    height: $y*72px;
+    width: $x*239px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    .content {
+        font-size: 0.7*25px;
+        margin-right: $x*8.84px;
+    }
+    .arrow:last-child {
+        position: relative;
+        left: -2px;
+    }
+}

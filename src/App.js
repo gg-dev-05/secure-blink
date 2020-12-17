@@ -13,7 +13,9 @@ function App() {
       <img id="heading1" src={heading1} />
       <br />
       <img id="subheading1" src={subheading1} />
-      <GetStartedButton />
+      <div className="getStarted">
+        <GetStartedButton />
+      </div>
     </div>
   );
 }

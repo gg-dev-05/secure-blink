@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,UAAU,CAAC;EACP,MAAM,EAAE,OAAO;EACf,KAAK,EAAE,OAAQ;EACf,gBAAgB,EAAE,KAAK;EACvB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,IAAI;CAStB;;AAhBD,AAQI,UARM,CAQN,QAAQ,CAAC;EACL,SAAS,EAAE,MAAQ;EACnB,YAAY,EAAE,OAAS;CAC1B;;AAXL,AAYI,UAZM,CAYN,MAAM,AAAA,WAAW,CAAC;EACd,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,IAAI;CACb",
+    "sources": [
+        "GetStartedButton.scss",
+        "../globals/global.scss"
+    ],
+    "names": [],
+    "file": "GetStartedButton.css"
+}
