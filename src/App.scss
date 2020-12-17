@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import'./globals/global';
+body {
+    background: #0E77FF;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+}
+
+#heading1 {
+    margin-top: $y*280px;
+    margin-left: $x*226px;
+}
+
+#subheading1 {
+    margin-left: $x*226px;
+    margin-top: $y*48.5;
+    color: #9ABFFF;
+}

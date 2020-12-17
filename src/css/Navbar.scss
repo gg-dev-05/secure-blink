@@ -1,0 +1,27 @@
+@import'../globals/global';
+.navbar {
+    margin: $x*67px $y*281px;
+    background-color: #0E77FF;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    .navbar-mid {
+        margin-right: 12px;
+        font: normal normal normal 18px/27px Poppins;
+    }
+    #rectangle {
+        height: $y*53px;
+        width: $x*159px;
+        background-color: white;
+        color: black;
+        display: grid;
+        place-items: center;
+        border-radius: 5*0.75px;
+    }
+    .logo {
+        margin-right: auto;
+        font-size: 25px;
+    }
+}
