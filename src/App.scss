@@ -23,3 +23,11 @@ body {
     margin-left: $x*226px;
     margin-top: $y*40.5px;
 }
+
+.page2 {
+    z-index: 2;
+    margin-top: 330px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
