@@ -3,6 +3,8 @@ import heading1 from './assets/Web Design Web Development by SB.svg'
 import subheading1 from './assets/Our products are fully custom-made, built with the latest technologies and cloud-architectures..svg'
 import Navbar from "./components/Navbar";
 import GetStartedButton from "./components/GetStartedButton";
+import BackgroundRocket from "./components/BackgroundRocket";
+
 
 
 
@@ -16,6 +18,7 @@ function App() {
       <div className="getStarted">
         <GetStartedButton />
       </div>
+      <BackgroundRocket />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
+  overflow: scroll;
   background: #0E77FF;
   font-family: Poppins;
   display: -webkit-box;
@@ -12,7 +13,7 @@ body {
 }
 
 #heading1 {
-  margin-top: 204.4px;
+  margin-top: 87.6px;
   margin-left: 180.8px;
 }
 

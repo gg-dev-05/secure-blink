@@ -1,0 +1,17 @@
+.backgroundRocket {
+  z-index: -2;
+  height: 10px;
+  position: absolute;
+  top: 189.9606px;
+}
+
+.bgRocket {
+  width: 100%;
+}
+
+.circle {
+  position: absolute;
+  top: 131.4px;
+  left: 1020px;
+}
+/*# sourceMappingURL=BackgroundRocket.css.map */
