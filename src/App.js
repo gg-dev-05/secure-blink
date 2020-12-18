@@ -10,6 +10,7 @@ import OurServices from './components/OurServices'
 import Designing from './components/Designing'
 import Workflow from './components/Workflow'
 import CardColumn from './components/CardColumn'
+import CoreTechnologies from './components/CoreTechnologies'
 
 
 
@@ -40,7 +41,10 @@ function App() {
       <div className="page3">
         <Workflow />
         <CardColumn />
+      </div>
 
+      <div className="page4">
+        <CoreTechnologies />
       </div>
     </div>
 

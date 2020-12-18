@@ -39,3 +39,11 @@ body {
     display: grid;
     grid-template-columns: 1fr;
 }
+
+.page4 {
+    z-index: 2;
+    padding-top: $y*295px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+}

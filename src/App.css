@@ -47,4 +47,14 @@ body {
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
 }
+
+.page4 {
+  z-index: 2;
+  padding-top: 215.35px;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
 /*# sourceMappingURL=App.css.map */
