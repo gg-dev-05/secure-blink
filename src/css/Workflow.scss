@@ -1,0 +1,15 @@
+@import'../globals/global';
+.workflow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .heading {
+        font: normal normal 600 0.7*40px Poppins;
+    }
+    .content {
+        margin-top: $y*21px;
+        text-align: center;
+        width: $x*814px;
+    }
+}

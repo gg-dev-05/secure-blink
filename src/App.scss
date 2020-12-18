@@ -31,3 +31,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.page3 {
+    z-index: 2;
+    padding-top: $y*287px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+}

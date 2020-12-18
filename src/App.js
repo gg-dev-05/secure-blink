@@ -6,6 +6,13 @@ import GetStartedButton from "./components/GetStartedButton";
 import BackgroundRocket from "./components/BackgroundRocket";
 import Group35699 from './components/Group35699'
 import AboutUs from './components/AboutUs'
+import OurServices from './components/OurServices'
+import Designing from './components/Designing'
+import Workflow from './components/Workflow'
+import CardColumn from './components/CardColumn'
+
+
+
 
 
 
@@ -26,8 +33,13 @@ function App() {
       <div className="page2">
         <Group35699 />
         <AboutUs />
-        <h1>HELLO WORLD</h1>
-        <h1>HELLO WORLD</h1>
+        <OurServices />
+        <Designing />
+      </div>
+
+      <div className="page3">
+        <Workflow />
+        <CardColumn />
 
       </div>
     </div>

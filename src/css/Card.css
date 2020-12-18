@@ -1,0 +1,43 @@
+.card-box {
+  min-width: 303.2px;
+  min-height: 254.04px;
+  margin: 2px;
+}
+
+.card-box .rectangle {
+  height: 32.85px;
+  width: 96.8px;
+  background-color: #16B2FF17;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 31px;
+  font: normal normal 600 20px/50px Poppins;
+  color: #0E77FF;
+  margin-bottom: 19.71px;
+}
+
+.card-box img {
+  margin-top: 9.49px;
+  margin-bottom: 12.41px;
+}
+
+.card-box .heading {
+  font-family: Poppins;
+  font-size: 25.2px;
+}
+
+.card-box .subtext {
+  width: 288px;
+  font-family: Poppins;
+  text-align: left;
+  margin-bottom: 14.6px;
+  font-size: 11.2px;
+}
+/*# sourceMappingURL=Card.css.map */

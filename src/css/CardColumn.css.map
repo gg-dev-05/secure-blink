@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,WAAW,CAAC;EACR,UAAU,EAAE,QAAQ;EACpB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CAC1B",
+    "sources": [
+        "CardColumn.scss",
+        "../globals/global.scss"
+    ],
+    "names": [],
+    "file": "CardColumn.css"
+}

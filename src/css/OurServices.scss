@@ -1,0 +1,50 @@
+@import'../globals/global';
+.ourServices {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: $x*584px;
+    .ml36 {
+        margin-left: $x*16px;
+    }
+    .ml23 {
+        margin-left: $x*8px;
+    }
+    .row {
+        display: flex;
+        align-items: center;
+    }
+    .subHeading {
+        color: #0E77FF;
+    }
+    .mainHeading {
+        width: 500px;
+        font-size: 0.6*35px;
+        font: normal normal 600 40px/50px Poppins;
+        margin-bottom: $y*50px;
+    }
+    .box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .rectangle {
+            height: $y*72px;
+            width: $x*239px;
+            background-color: #16B2FF17;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 16px;
+            color: #0E77FF;
+            transition: all 0.4s;
+            &:hover {
+                background: #0E77FF;
+                color: white;
+            }
+        }
+        .selected {
+            background: #0E77FF;
+            color: white;
+        }
+    }
+}

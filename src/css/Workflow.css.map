@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CAS1B;;AAbD,AAKI,SALK,CAKL,QAAQ,CAAC;EACL,IAAI,EAAE,MAAM,CAAC,MAAM,CAAC,GAAG,CAAC,IAAQ,CAAC,OAAO;CAC3C;;AAPL,AAQI,SARK,CAQL,QAAQ,CAAC;EACL,UAAU,EAAE,OAAO;EACnB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAQ;CAClB",
+    "sources": [
+        "Workflow.scss",
+        "../globals/global.scss"
+    ],
+    "names": [],
+    "file": "Workflow.css"
+}
