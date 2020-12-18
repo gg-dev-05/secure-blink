@@ -1,0 +1,60 @@
+@import'../globals/global';
+.caseStudies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .heading {
+        font-size: 0.7*40px;
+        font-weight: 600;
+        margin-bottom: $y*19px;
+    }
+    .subtext {
+        width: $x*881px;
+        text-align: center;
+        margin-bottom: $y*63px;
+    }
+    .row {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .caseCard {
+        height: 100%;
+        width: $x*519px;
+        border-radius: 12px 12px 0px 0px;
+        margin-right: $x*41px;
+        img {
+            width: $x*519px;
+            height: $y*305px;
+        }
+        .iwp {
+            font-size: 0.7*24px;
+            font-weight: medium;
+        }
+        .cntnt {
+            margin-top: $y*20.41px;
+            font-size: 0.7*16px;
+            width: $x*445.31px;
+        }
+    }
+    .rectangle {
+        margin-top: $y*85px;
+        margin-bottom: $y*251px;
+        width: $x*239px;
+        height: $y*72px;
+        border-radius: 35px;
+        border: 2px solid #0E77FF;
+        display: grid;
+        place-items: center;
+        align-items: center;
+        color: #0E77FF;
+    }
+    .lefti {
+        margin-left: $x*140px;
+        margin-right: $x*41px;
+    }
+    .righti {
+        margin-right: $x*140px;
+        margin-left: $x*41px;
+    }
+}

@@ -1,0 +1,10 @@
+@import'../globals/global';
+.sendUsMessage {
+    width: $x*747px;
+    height: $y*836px;
+    background: red;
+    padding-top: $y*100px;
+    .heading {
+        background: green;
+    }
+}

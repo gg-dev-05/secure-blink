@@ -1,6 +1,5 @@
 import './App.css';
-import heading1 from './assets/Web Design Web Development by SB.svg'
-import subheading1 from './assets/Our products are fully custom-made, built with the latest technologies and cloud-architectures..svg'
+
 import Navbar from "./components/Navbar";
 import GetStartedButton from "./components/GetStartedButton";
 import BackgroundRocket from "./components/BackgroundRocket";
@@ -12,6 +11,14 @@ import Workflow from './components/Workflow'
 import CardColumn from './components/CardColumn'
 import CoreTechnologies from './components/CoreTechnologies'
 import Customers from './components/Customers'
+import CaseStudies from './components/CaseStudies'
+import Footer from './components/Footer'
+
+import heading1 from './assets/Web Design Web Development by SB.svg'
+import subheading1 from './assets/Our products are fully custom-made, built with the latest technologies and cloud-architectures..svg'
+import messageUs from './assets/Group 35686.svg'
+import SendUsMessage from './components/SendUsMessage';
+
 
 
 
@@ -47,6 +54,22 @@ function App() {
       <div className="page4">
         <CoreTechnologies />
         <Customers />
+      </div>
+
+      <div className="page5">
+        <CaseStudies />
+      </div>
+
+      <div className="page6">
+        <div className="message-img">
+          <img src={messageUs} />
+        </div>
+
+        {/* <SendUsMessage /> */}
+      </div>
+
+      <div className="footer">
+        <Footer />
       </div>
     </div>
 

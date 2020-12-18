@@ -16,7 +16,7 @@ export default function Customers() {
             <div className="text">
                 <div className="row">
                     <img src={arrow} />
-                    <div className="subHeading">ABOUT US</div>
+                    <div className="subHeading">SELECTED CUSTOMERS</div>
                 </div>
 
                 <div className="heading">

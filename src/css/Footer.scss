@@ -1,0 +1,51 @@
+@import'../globals/global';
+.Footer {
+    background: #0E77FF;
+    padding-top: $y*124.25px;
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    .info {
+        margin-top: $y*178px;
+        margin-left: $x*140px;
+        margin-bottom: $y*12px;
+        width: $x*456px;
+        font-size: 0.7*16px;
+        text-align: left;
+        font-family: Poppins;
+        line-height: $y*30px;
+        opacity: 0.7;
+        font-weight: 300;
+        img {
+            margin-top: $y*12px;
+            margin-right: $x*11.37px;
+            height: 0.7*37.11px;
+            width: 0.7*37.11px;
+            margin-bottom: $y*67.2px;
+        }
+        .info-icons {
+            display: flex;
+        }
+    }
+}
+
+.headItem {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.blue-line {
+    margin-top: $y*11px;
+    margin-bottom: $y*18px;
+    width: 48px;
+    height: 4px;
+    background: #21B3FF;
+}
+
+.listi-item {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: $y*36px;
+    opacity: 0.7;
+}

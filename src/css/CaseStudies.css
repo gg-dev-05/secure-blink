@@ -1,0 +1,84 @@
+.caseStudies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.caseStudies .heading {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 13.87px;
+}
+
+.caseStudies .subtext {
+  width: 704.8px;
+  text-align: center;
+  margin-bottom: 45.99px;
+}
+
+.caseStudies .row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.caseStudies .caseCard {
+  height: 100%;
+  width: 415.2px;
+  border-radius: 12px 12px 0px 0px;
+  margin-right: 32.8px;
+}
+
+.caseStudies .caseCard img {
+  width: 415.2px;
+  height: 222.65px;
+}
+
+.caseStudies .caseCard .iwp {
+  font-size: 16.8px;
+  font-weight: medium;
+}
+
+.caseStudies .caseCard .cntnt {
+  margin-top: 14.8993px;
+  font-size: 11.2px;
+  width: 356.248px;
+}
+
+.caseStudies .rectangle {
+  margin-top: 62.05px;
+  margin-bottom: 183.23px;
+  width: 191.2px;
+  height: 52.56px;
+  border-radius: 35px;
+  border: 2px solid #0E77FF;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0E77FF;
+}
+
+.caseStudies .lefti {
+  margin-left: 112px;
+  margin-right: 32.8px;
+}
+
+.caseStudies .righti {
+  margin-right: 112px;
+  margin-left: 32.8px;
+}
+/*# sourceMappingURL=CaseStudies.css.map */

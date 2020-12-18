@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,cAAc,CAAC;EACX,KAAK,EAAE,OAAQ;EACf,MAAM,EAAE,QAAQ;EAChB,UAAU,EAAE,GAAG;EACf,WAAW,EAAE,IAAQ;CAIxB;;AARD,AAKI,cALU,CAKV,QAAQ,CAAC;EACL,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "SendUsMessage.scss",
+        "../globals/global.scss"
+    ],
+    "names": [],
+    "file": "SendUsMessage.css"
+}
