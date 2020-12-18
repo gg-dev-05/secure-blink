@@ -11,6 +11,7 @@ import Designing from './components/Designing'
 import Workflow from './components/Workflow'
 import CardColumn from './components/CardColumn'
 import CoreTechnologies from './components/CoreTechnologies'
+import Customers from './components/Customers'
 
 
 
@@ -45,6 +46,7 @@ function App() {
 
       <div className="page4">
         <CoreTechnologies />
+        <Customers />
       </div>
     </div>
 

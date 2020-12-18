@@ -1,0 +1,64 @@
+@import'../globals/global';
+.customers {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    column-gap: 80px;
+    align-items: center;
+    height: $y*917px;
+    .image {
+        background: #0E77FF;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .white-circle {
+            width: 0.7*583px;
+            height: 0.7*583px;
+            border-radius: 300px;
+            background: white;
+            display: flex;
+            /* or inline-flex */
+            align-items: center;
+            justify-content: center;
+            img {
+                height: 80%;
+                width: 80%;
+            }
+        }
+    }
+    .text {
+        .row {
+            display: flex;
+            align-items: center;
+        }
+        .subHeading {
+            color: #0E77FF;
+            font-size: 0.7*25px;
+        }
+        .heading {
+            margin-top: $y*18px;
+            margin-bottom: $y*62px;
+            font-size: 0.7*36px;
+            font-weight: 600;
+            width: $x*398px;
+        }
+        .more-text {
+            width: $x*621px;
+            line-height: $y*40px;
+            font-size: 0.7*18px;
+            margin-bottom: $y*50.25px;
+        }
+        .react-icon {
+            width: $x*80px;
+            height: $y*80px;
+            filter: brightness(0%) saturate(100%);
+            margin-bottom: $y*56px;
+        }
+        .arrows {
+            img {
+                width: $x*161px;
+            }
+        }
+    }
+}
