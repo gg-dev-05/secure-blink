@@ -8,8 +8,8 @@ export default function GetStartedButton() {
         <div>
             <div id="rectangle">
                 <div className="content">Get Started</div>
-                <img className="arrow" src={arrow} />
-                <img className="arrow" src={arrow} />
+                <img className="arrow" src={arrow} alt="arrow" />
+                <img className="arrow" src={arrow} alt="arrow" />
             </div>
         </div>
     )

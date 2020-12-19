@@ -6,7 +6,7 @@ export default function OurServices() {
     return (
         <div className="ourServices">
             <div className="row">
-                <img src={arrow} />
+                <img src={arrow} alt="arrow" />
                 <div className="subHeading">OUR SERVICES</div>
             </div>
 

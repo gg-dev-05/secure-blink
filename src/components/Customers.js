@@ -11,19 +11,19 @@ export default function Customers() {
     return (
         <div className="customers">
             <div className="white-dots-cust">
-                <img src={Group35648} />
+                <img src={Group35648} alt="dots" />
             </div>
             <div className="blue-dots-cust">
-                <img src={Group35649} />
+                <img src={Group35649} alt="dots" />
             </div>
             <div className="image">
                 <div className="white-circle">
-                    <img src={image} />
+                    <img src={image} alt="circle" />
                 </div>
             </div>
             <div className="text">
                 <div className="roww">
-                    <img src={arrow} />
+                    <img src={arrow} alt="arrow" />
                     <div className="subHeading">SELECTED CUSTOMERS</div>
                 </div>
 
@@ -34,9 +34,9 @@ export default function Customers() {
                 <div className="more-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex turpis accumsan congue. Quisque blandit dui Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In convallis porta mauris non aliquam.
                 </div>
-                <img className="react-icon" src={react} />
+                <img className="react-icon" src={react} alt="logo" />
                 <div className="arrows">
-                    <img src={arrows} />
+                    <img src={arrows} alt="arrow" />
                 </div>
             </div>
         </div>

@@ -10,9 +10,9 @@ export default function Footer() {
             <div className="info">
                 Lorem Finaldream rure dolor in reprehenderit in voluptate velit esse cillum dolore e uis nostrud exercitation isi ut aliquip ex ea commodo consequat.
                 <div className="info-icons">
-                    <img src={fb} />
-                    <img src={twitter} />
-                    <img src={insta} />
+                    <img src={fb} alt="logo" />
+                    <img src={twitter} alt="logo" />
+                    <img src={insta} alt="logo" />
 
                 </div>
             </div>

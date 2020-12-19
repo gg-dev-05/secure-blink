@@ -6,7 +6,7 @@ export default function Designing() {
     return (
         <div className="designing">
             <div className="heading">
-                <img className="Group35621" src={Group35621} />
+                <img className="Group35621" src={Group35621} alt="bgimg" />
                 <div className="head-des">UI/UX Designing</div>
             </div>
 
@@ -15,19 +15,19 @@ export default function Designing() {
             </div>
 
             <div className="list">
-                <div className="item"><img src={tick} />
+                <div className="item"><img src={tick} alt="tick" />
                     <div className="item-text">Lorem ipsum dolor sit amet, conse ctetur adipi scing elit.</div>
                 </div>
 
-                <div className="item"><img src={tick} />
+                <div className="item"><img src={tick} alt="tick" />
                     <div className="item-text">Lorem ipsum dolor sit amet,</div>
                 </div>
 
-                <div className="item"><img src={tick} />
+                <div className="item"><img src={tick} alt="tick" />
                     <div className="item-text">conse ctetur adipi scing elit.</div>
                 </div>
 
-                <div className="item"><img src={tick} />
+                <div className="item"><img src={tick} alt="tick" />
                     <div className="item-text">Lorem ipsum dolor sit amet, conse ctetur</div>
                 </div>
             </div>

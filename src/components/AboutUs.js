@@ -7,7 +7,7 @@ export default function AboutUs() {
     return (
         <div className="aboutUs">
             <div className="row">
-                <img src={arrow} />
+                <img src={arrow} alt="arr" />
                 <div className="subHeading">ABOUT US</div>
             </div>
             <div className="mainHeading">Great Digital Agency</div>
@@ -15,8 +15,8 @@ export default function AboutUs() {
             <div className="content2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex odio, turpis accumsan congue. Quisque blandit dui Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In convallis porta mauris non aliquam.</div>
             <div id="rectanglee">
                 <div className="contentt">Get Started</div>
-                <img className="arrow" src={arrow1} />
-                <img className="arrow" src={arrow1} />
+                <img className="arrow" src={arrow1} alt="arr1" />
+                <img className="arrow" src={arrow1} alt="arr2" />
             </div>
         </div>
     )

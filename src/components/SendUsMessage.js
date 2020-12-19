@@ -45,8 +45,8 @@ export default function SendUsMessage() {
 
             <div id="rectangleq">
                 <div className="content">Get Started</div>
-                <img className="arrow" src={arrow} />
-                <img className="arrow" src={arrow} />
+                <img className="arrow" src={arrow} alt="arrow" />
+                <img className="arrow" src={arrow} alt="arrow" />
             </div>
 
         </div>

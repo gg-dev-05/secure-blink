@@ -15,33 +15,33 @@ import tri7 from '../assets/Group 35698.svg'
 export default function BackgroundRocket() {
     return (
         <div className="backgroundRocket">
-            <img className="bgRocket" src={backgroundRocket} />
-            <img className="circle" src={circle} />
+            <img className="bgRocket" src={backgroundRocket} alt="bgr" />
+            <img className="circle" src={circle} alt="bgr" />
             <div className="tri1">
-                <img src={tri1} />
+                <img src={tri1} alt="tri" />
             </div>
             <div className="tri2">
-                <img src={tri2} />
+                <img src={tri2} alt="tri" />
             </div>
 
             <div className="tri3">
-                <img src={tri3} />
+                <img src={tri3} alt="tri" />
             </div>
 
             <div className="tri4">
-                <img src={tri4} />
+                <img src={tri4} alt="tri" />
             </div>
 
             <div className="tri5">
-                <img src={tri5} />
+                <img src={tri5} alt="tri" />
             </div>
 
             <div className="tri6">
-                <img src={tri6} />
+                <img src={tri6} alt="tri" />
             </div>
 
             <div className="tri7">
-                <img src={tri7} />
+                <img src={tri7} alt="tri" />
             </div>
         </div>
     )

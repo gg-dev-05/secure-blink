@@ -53,7 +53,7 @@ function App() {
       </div>
       <Designing />
       <div className="blue-dots">
-        <img src={Group35650} />
+        <img src={Group35650} alt="dots" />
       </div>
       <div className="page3">
         <Workflow />
@@ -61,7 +61,7 @@ function App() {
       </div>
 
       <div className="_3w-2b-tri">
-        <img src={Group35700} />
+        <img src={Group35700} alt="tirgs" />
       </div>
 
       <div className="page4">
@@ -80,14 +80,14 @@ function App() {
 
       <div className="page6">
         <div className="message-img">
-          <img src={messageUs} />
+          <img src={messageUs} alt="msgUs" />
         </div>
         <div className="msg-img-bg">
-          <img src={Path37456} />
+          <img src={Path37456} alt="bgmsg" />
         </div>
 
         <div className="triii">
-          <img src={Path37660} />
+          <img src={Path37660} alt="triy" />
         </div>
         <SendUsMessage />
       </div>

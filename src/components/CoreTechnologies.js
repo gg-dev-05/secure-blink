@@ -26,55 +26,55 @@ export default function CoreTechnologies() {
 
             <div className="icons">
                 <div className="square">
-                    <img src={react} />
+                    <img src={react} alt="logo" />
                 </div>
 
                 <div className="square blue">
-                    <img src={aws} />
+                    <img src={aws} alt="logo" />
                 </div>
 
                 <div className="square">
-                    <img src={gcp} />
+                    <img src={gcp} alt="logo" />
                 </div>
 
                 <div className="square">
-                    <img src={redux} />
+                    <img src={redux} alt="logo" />
                 </div>
 
                 <div className="square">
-                    <img src={js} />
+                    <img src={js} alt="logo" />
                 </div>
 
                 <div className="square">
-                    <img src={g10} />
+                    <img src={g10} alt="logo" />
                 </div>
 
                 <div className="square">
-                    <img src={aws_blue} />
+                    <img src={aws_blue} alt="logo" />
                 </div>
                 <br />
                 <div className="square">
-                    <img src={g10} />
+                    <img src={g10} alt="logo" />
                 </div>
 
                 <div className="square">
-                    <img src={redux} />
+                    <img src={redux} alt="logo" />
                 </div>
 
                 <div className="square">
-                    <img src={node} />
+                    <img src={node} alt="logo" />
                 </div>
 
                 <div className="square">
-                    <img src={firebase} />
+                    <img src={firebase} alt="logo" />
                 </div>
 
                 <div className="square">
-                    <img src={react} />
+                    <img src={react} alt="logo" />
                 </div>
 
                 <div className="square">
-                    <img src={js} />
+                    <img src={js} alt="logo" />
                 </div>
             </div>
 

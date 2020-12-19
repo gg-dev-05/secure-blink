@@ -10,7 +10,7 @@ export default function CaseStudies() {
     return (
         <div className="caseStudies">
             <div className="bg-img-casestudies">
-                <img src={Group35701} />
+                <img src={Group35701} alt="bg-img-for-studies" />
             </div>
             <div className="heading">
                 Case Studies
@@ -22,7 +22,7 @@ export default function CaseStudies() {
 
             <div className="row">
                 <div className="caseCard lefti">
-                    <img src={image1} />
+                    <img src={image1} alt="left card" />
                     <div className="sm-box">
                         <div className="iwp">Isomorphic Web App</div>
                         <div className="cntnt">
@@ -32,8 +32,8 @@ export default function CaseStudies() {
                         <div className="read-more">
                             <div className="row">
                                 <div>
-                                    <img className="arr" src={arrow} />
-                                    <img className="arr" src={arrow} />
+                                    <img className="arr" src={arrow} alt="arrow" />
+                                    <img className="arr" src={arrow} alt="arrow" />
                                 </div>
                                 <div className="rdmr">Read More</div>
                             </div>
@@ -44,7 +44,7 @@ export default function CaseStudies() {
 
 
                 <div className="caseCard midd">
-                    <img src={image2} />
+                    <img src={image2} alt="middle card" />
                     <div className="sm-box">
                         <div className="iwp">Isomorphic Web App</div>
                         <div className="cntnt">
@@ -54,8 +54,8 @@ export default function CaseStudies() {
                         <div className="read-more">
                             <div className="row">
                                 <div>
-                                    <img className="arr" src={arrow} />
-                                    <img className="arr" src={arrow} />
+                                    <img className="arr" src={arrow} alt="arrow" />
+                                    <img className="arr" src={arrow} alt="arrow" />
                                 </div>
                                 <div className="rdmr">Read More</div>
                             </div>
@@ -64,7 +64,7 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="caseCard righti">
-                    <img src={image3} />
+                    <img src={image3} alt="right card" />
                     <div className="sm-box">
                         <div className="iwp">Isomorphic Web App</div>
                         <div className="cntnt">
@@ -74,8 +74,8 @@ export default function CaseStudies() {
                         <div className="read-more">
                             <div className="row">
                                 <div>
-                                    <img className="arr" src={arrow} />
-                                    <img className="arr" src={arrow} />
+                                    <img className="arr" src={arrow} alt="arrow" />
+                                    <img className="arr" src={arrow} alt="arrow" />
                                 </div>
                                 <div className="rdmr">Read More</div>
                             </div>
