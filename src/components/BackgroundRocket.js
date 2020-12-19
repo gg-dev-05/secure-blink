@@ -50,9 +50,9 @@ export default function BackgroundRocket() {
                 <img src={tri5} alt="tri" />
             </div>
 
-            <div className="tri6">
+            {/* <div className="tri6">
                 <img src={tri6} alt="tri" />
-            </div>
+            </div> */}
 
             <div className="tri7">
                 <img src={tri7} alt="tri" />
