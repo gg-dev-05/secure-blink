@@ -7,12 +7,52 @@
 }
 
 .bgRocket {
-    width: 105%;
+    position: absolute;
+    top: 100px;
+    left: -7.999664306640625px;
+    width: 1928px;
+    height: 941px;
 }
 
 .circle {
     position: absolute;
-    background: red;
-    top: $y*180px;
-    left: 1020px;
+    top: 290px;
+    left: 1290px;
+}
+
+.tri1 {
+    position: absolute;
+    z-index: 100;
+    color: #FFFFFF;
+    top: 219px;
+    left: 1079px;
+    width: 46px;
+    height: 45px;
+    transform: matrix(0.62, 0.79, -0.79, 0.62, 0, 0);
+}
+
+.tri2 {
+    position: absolute;
+    top: -50px;
+    left: 1247px;
+    width: 324px;
+    height: 285px;
+}
+
+.tri3 {
+    position: absolute;
+    top: 200px;
+    left: 999px;
+    width: 42px;
+    height: 40px;
+    transform: matrix(0.39, 0.92, -0.92, 0.39, 0, 0);
+}
+
+.tri4 {
+    position: absolute;
+    top: 540px;
+    left: 631px;
+    width: 209px;
+    height: 206px;
+    transform: matrix(-0.64, -0.77, 0.77, -0.64, 0, 0);
 }

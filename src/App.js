@@ -19,6 +19,8 @@ import messageUs from './assets/Group 35686.svg'
 import Group35650 from './assets/Group 35650.svg'
 import Group35700 from './assets/Group 35700.svg'
 import Path37456 from './assets/Path 37456.svg'
+import Path37660 from './assets/Path 37660.svg'
+
 
 
 
@@ -82,6 +84,10 @@ function App() {
         </div>
         <div className="msg-img-bg">
           <img src={Path37456} />
+        </div>
+
+        <div className="triii">
+          <img src={Path37660} />
         </div>
         <SendUsMessage />
       </div>
