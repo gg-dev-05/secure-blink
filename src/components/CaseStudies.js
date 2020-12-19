@@ -20,48 +20,62 @@ export default function CaseStudies() {
             <div className="row">
                 <div className="caseCard lefti">
                     <img src={image1} />
-                    <div className="iwp">
-                        Isomorphic Web App
-                    </div>
-                    <div className="cntnt">
-                        Getting involved matters. Crucial causes to the if ever, come from passive action.
-                    </div>
+                    <div className="sm-box">
+                        <div className="iwp">Isomorphic Web App</div>
+                        <div className="cntnt">
+                            Getting involved matters. Crucial causes to the if ever, come from passive action.
+                        </div>
 
-                    <div className="read-more">
-                        <div className="row">
-                            Read More
+                        <div className="read-more">
+                            <div className="row">
+                                <div>
+                                    <img className="arr" src={arrow} />
+                                    <img className="arr" src={arrow} />
+                                </div>
+                                <div className="rdmr">Read More</div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
+
 
                 <div className="caseCard">
                     <img src={image2} />
-                    <div className="iwp">
-                        Isomorphic Web App
-                    </div>
-                    <div className="cntnt">
-                        Getting involved matters. Crucial causes to the if ever, come from passive action.
-                    </div>
+                    <div className="sm-box">
+                        <div className="iwp">Isomorphic Web App</div>
+                        <div className="cntnt">
+                            Getting involved matters. Crucial causes to the if ever, come from passive action.
+                        </div>
 
-                    <div className="read-more">
-                        <div className="row">
-
+                        <div className="read-more">
+                            <div className="row">
+                                <div>
+                                    <img className="arr" src={arrow} />
+                                    <img className="arr" src={arrow} />
+                                </div>
+                                <div className="rdmr">Read More</div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div className="caseCard righti">
                     <img src={image3} />
-                    <div className="iwp">
-                        Isomorphic Web App
-                    </div>
-                    <div className="cntnt">
-                        Getting involved matters. Crucial causes to the if ever, come from passive action.
-                    </div>
+                    <div className="sm-box">
+                        <div className="iwp">Isomorphic Web App</div>
+                        <div className="cntnt">
+                            Getting involved matters. Crucial causes to the if ever, come from passive action.
+                        </div>
 
-                    <div className="read-more">
-                        <div className="row">
-
+                        <div className="read-more">
+                            <div className="row">
+                                <div>
+                                    <img className="arr" src={arrow} />
+                                    <img className="arr" src={arrow} />
+                                </div>
+                                <div className="rdmr">Read More</div>
+                            </div>
                         </div>
                     </div>
                 </div>

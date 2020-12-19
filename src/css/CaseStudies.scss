@@ -16,7 +16,6 @@
     .row {
         width: 100%;
         display: flex;
-        justify-content: space-evenly;
     }
     .caseCard {
         height: 100%;
@@ -56,5 +55,24 @@
     .righti {
         margin-right: $x*140px;
         margin-left: $x*41px;
+    }
+    .read-more {
+        color: #0E77FF;
+        margin-top: $y*7.71px;
+        .row {
+            display: flex;
+            align-items: flex-start;
+            .arr {
+                width: $x*6.98px;
+                height: $y*12.24px;
+                filter: invert(34%) sepia(86%) saturate(2650%) hue-rotate(203deg) brightness(98%) contrast(106%);
+            }
+        }
+    }
+    .sm-box {
+        margin-left: $x*39.84px;
+    }
+    .rdmr {
+        margin-left: $x*10.39px;
     }
 }

@@ -28,9 +28,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
 }
 
 .caseStudies .caseCard {
@@ -80,5 +77,34 @@
 .caseStudies .righti {
   margin-right: 112px;
   margin-left: 32.8px;
+}
+
+.caseStudies .read-more {
+  color: #0E77FF;
+  margin-top: 5.6283px;
+}
+
+.caseStudies .read-more .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.caseStudies .read-more .row .arr {
+  width: 5.584px;
+  height: 8.9352px;
+  -webkit-filter: invert(34%) sepia(86%) saturate(2650%) hue-rotate(203deg) brightness(98%) contrast(106%);
+          filter: invert(34%) sepia(86%) saturate(2650%) hue-rotate(203deg) brightness(98%) contrast(106%);
+}
+
+.caseStudies .sm-box {
+  margin-left: 31.872px;
+}
+
+.caseStudies .rdmr {
+  margin-left: 8.312px;
 }
 /*# sourceMappingURL=CaseStudies.css.map */
