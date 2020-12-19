@@ -6,11 +6,12 @@
 }
 
 .bgRocket {
-  width: 100%;
+  width: 105%;
 }
 
 .circle {
   position: absolute;
+  background: red;
   top: 131.4px;
   left: 1020px;
 }

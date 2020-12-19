@@ -1,37 +1,39 @@
 .navbar {
-  margin: 53.6px 205.13px;
+  margin-top: 75px;
+  margin-left: 281px;
+  margin-right: 281px;
+  width: 1358px;
   background-color: #0E77FF;
-  font-size: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  font-size: 18px;
   color: white;
 }
 
 .navbar .navbar-mid {
-  margin-right: 12px;
   font: normal normal normal 18px/27px Poppins;
+  margin-right: 40px;
+  white-space: nowrap;
+  text-align: left;
 }
 
 .navbar #rectangle {
-  height: 38.69px;
-  width: 127.2px;
   background-color: white;
+  border-radius: 5px;
   color: black;
   display: -ms-grid;
   display: grid;
   place-items: center;
-  border-radius: 3.75px;
+  font: normal normal normal 18px/27px Poppins;
 }
 
 .navbar .logo {
-  margin-right: auto;
-  font-size: 25px;
+  margin-right: 513px;
+  font: normal normal normal 25px/38px Poppins;
+  text-align: left;
 }
 /*# sourceMappingURL=Navbar.css.map */
