@@ -3,6 +3,18 @@
             min-width: $x*379px;
             min-height: $y*348px;
             margin: 2px;
+            .rectanglew {
+                width: 121px;
+                height: 45px;
+                background-color: #0E77FF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 31px;
+                font: normal normal 600 20px/50px Poppins;
+                color: white;
+                margin-bottom: $y*27px;
+            }
             .rectangle {
                 width: 121px;
                 height: 45px;

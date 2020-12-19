@@ -8,7 +8,7 @@ export default function CardColumn() {
                 <Card step="Step 1" heading="Send your brief" />
             </div>
             <div className="card card-shadow c2">
-                <Card step="Step 2" heading="Wait for delivery" />
+                <Card step="Step 2" heading="Wait for delivery" color="blu" />
             </div>
             <div className="card c3">
                 <Card step="Step 3" heading="Get your files!" />

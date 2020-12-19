@@ -56,3 +56,32 @@
     height: 206px;
     transform: matrix(-0.64, -0.77, 0.77, -0.64, 0, 0);
 }
+
+.tri5 {
+    position: absolute;
+    top: 422px;
+    left: 1680px;
+    width: 358px;
+    height: 320px;
+    transform: matrix(-0.12, 0.99, -0.99, -0.12, 0, 0);
+}
+
+.tri6 {
+    position: absolute;
+    top: 899px;
+    left: 1532px;
+    width: 148px;
+    height: 130px;
+    transform: matrix(-0.05, 1, -1, -0.05, 0, 0);
+    border: 1px solid #209CD9;
+}
+
+.tri7 {
+    position: absolute;
+    z-index: 100;
+    top: 1020px;
+    left: 1397px;
+    width: 718px;
+    height: 720px;
+    transform: matrix(-0.72, 0.69, -0.69, -0.72, 0, 0);
+}

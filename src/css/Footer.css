@@ -34,6 +34,10 @@
   display: flex;
 }
 
+.Footer .contact {
+  margin-right: 210px;
+}
+
 .headItem {
   text-align: left;
   font: normal normal 600 20px/81px Poppins;
