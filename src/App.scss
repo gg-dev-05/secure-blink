@@ -1,48 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import'./globals/global';
 body {
-    overflow: scroll;
+    height: 1080px;
+    width: 1920px;
+    max-width: 100%;
+    overflow-x: hidden;
     background: #0E77FF;
     font-family: Poppins;
     display: flex;
     flex-direction: column;
 }
 
-#heading1 {
-    margin-top: $y*120px;
-    margin-left: $x*226px;
+.headings01 {
+    margin-top: 160px;
+    font-size: 55px;
+    width: 531px;
+    margin-left: 226px;
+    font-family: Poppins;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 48.5px;
 }
 
-#subheading1 {
-    margin-left: $x*226px;
-    margin-top: $y*48.5;
+.subheadings01 {
+    margin-left: 225px;
+    font-size: 20px;
+    text-align: left;
+    width: 735px;
     color: #9ABFFF;
 }
 
 .getStarted {
-    margin-left: $x*226px;
-    margin-top: $y*40.5px;
+    margin-left: 225px;
+    margin-top: 40.5px;
 }
 
 .page2 {
     z-index: 2;
+    height: 2403.03px;
+    width: 2017px;
     margin-top: 330px;
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
+.bl-rec {
+    position: relative;
+    width: 502px;
+    height: 889px;
+}
+
+.blue-dots {
+    position: absolute;
+    top: 2000px;
+    left: 1578px;
+    width: 560px;
+    height: 581px;
+    z-index: 5;
+}
+
 .page3 {
     z-index: 2;
-    padding-top: $y*287px;
+    padding-top: 287px;
     background-color: white;
     display: grid;
     grid-template-columns: 1fr;
 }
 
+._3w-2b-tri {
+    position: absolute;
+    top: 4654px;
+    left: -137.46983337402344px;
+    width: 720px;
+    height: 564px;
+}
+
 .page4 {
     z-index: 2;
-    padding-top: $y*295px;
     background-color: white;
     display: grid;
     grid-template-columns: 1fr;
@@ -60,17 +95,23 @@ body {
     z-index: 2;
     background-color: white;
     margin-bottom: 0px;
-    img {
-        margin-top: $y*395px;
-        margin-bottom: 0%;
-        padding-bottom: 0px;
-        width: $x*894px;
-        height: $y*588px;
+    .message-img {
+        position: absolute;
+        top: 8747px;
+        left: 22px;
+        width: 874px;
+        height: 589px;
+    }
+    .msg-img-bg {
+        z-index: 1;
+        position: absolute;
+        top: 8668px;
+        left: -0.00048828125px;
+        width: 1920px;
+        height: 1120px;
     }
 }
 
 .footer {
-    padding-top: 0px;
-    margin-top: 0px;
-    background-color: #0E77FF;
+    z-index: 5;
 }

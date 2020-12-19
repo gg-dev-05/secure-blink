@@ -4,11 +4,14 @@ import image1 from '../assets/bus.png'
 import image2 from '../assets/asdasd.png'
 import image3 from '../assets/Layer 4dsasdas.png'
 import arrow from '../assets/arrow-down-sign-to-navigate.svg'
-
+import Group35701 from '../assets/Group 35701.svg'
 
 export default function CaseStudies() {
     return (
         <div className="caseStudies">
+            <div className="bg-img-casestudies">
+                <img src={Group35701} />
+            </div>
             <div className="heading">
                 Case Studies
             </div>
@@ -40,7 +43,7 @@ export default function CaseStudies() {
                 </div>
 
 
-                <div className="caseCard">
+                <div className="caseCard midd">
                     <img src={image2} />
                     <div className="sm-box">
                         <div className="iwp">Isomorphic Web App</div>
@@ -84,7 +87,7 @@ export default function CaseStudies() {
 
             </div>
 
-            <div className="rectangle">
+            <div className="rectanglea">
                 View All
             </div>
         </div>

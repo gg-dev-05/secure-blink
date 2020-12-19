@@ -1,7 +1,30 @@
 @import'../globals/global';
 .cardColumn {
-    margin-top: $y*179px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 160px;
+}
+
+.card-shadow {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 30px 60px #0E77FF26;
+    padding-left: 71px;
+    padding-right: 69px;
+    padding-bottom: 88px;
+}
+
+.c1 {
+    position: absolute;
+    top: 4159px;
+    left: 280px;
+}
+
+.c2 {
+    position: absolute;
+    top: 4182px;
+    left: 700px;
+}
+
+.c3 {
+    position: absolute;
+    top: 4159px;
+    left: 1260px;
 }

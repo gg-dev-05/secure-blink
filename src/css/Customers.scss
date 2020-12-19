@@ -1,10 +1,26 @@
 @import'../globals/global';
 .customers {
+    margin-top: 0px;
     display: grid;
-    grid-template-columns: 4fr 6fr;
+    grid-template-columns: 5fr 6fr;
     column-gap: 80px;
     align-items: center;
     height: $y*917px;
+    .white-dots-cust {
+        position: absolute;
+        top: 5885px;
+        left: 729px;
+        width: 275px;
+        height: 473px;
+        transform: matrix(0, 1, -1, 0, 0, 0);
+    }
+    .blue-dots-cust {
+        position: absolute;
+        top: 6693px;
+        left: 1634px;
+        width: 572px;
+        height: 572px;
+    }
     .image {
         background: #0E77FF;
         width: 100%;
@@ -28,36 +44,50 @@
         }
     }
     .text {
-        .row {
+        z-index: 3;
+        .roww {
             display: flex;
-            align-items: center;
+            img {
+                width: 38px;
+                height: 47px;
+            }
         }
         .subHeading {
+            text-align: left;
+            font: normal normal 600 25px/50px Poppins;
+            letter-spacing: 0px;
             color: #0E77FF;
-            font-size: 0.7*25px;
+            margin-left: 8.99px;
+            margin-bottom: 18px;
         }
         .heading {
-            margin-top: $y*18px;
-            margin-bottom: $y*62px;
-            font-size: 0.7*36px;
-            font-weight: 600;
-            width: $x*398px;
+            text-align: left;
+            font: normal normal 600 36px/50px Poppins;
+            letter-spacing: 0px;
+            color: #292929;
+            width: 398px;
+            height: 101px;
+            margin-bottom: 62px;
         }
         .more-text {
-            width: $x*621px;
-            line-height: $y*40px;
-            font-size: 0.7*18px;
-            margin-bottom: $y*50.25px;
+            width: 621px;
+            height: 148px;
+            text-align: left;
+            font: normal normal 300 18px/40px Poppins;
+            letter-spacing: 0px;
+            color: #000000;
+            margin-bottom: 50.25px;
         }
         .react-icon {
-            width: $x*80px;
-            height: $y*80px;
+            width: 81px;
+            height: 72px;
             filter: brightness(0%) saturate(100%);
-            margin-bottom: $y*56px;
+            margin-bottom: 56.32px;
         }
         .arrows {
             img {
-                width: $x*161px;
+                width: 162px;
+                height: 57px;
             }
         }
     }

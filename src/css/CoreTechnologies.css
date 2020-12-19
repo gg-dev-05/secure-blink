@@ -1,5 +1,6 @@
 .coreTechnologies {
-  height: 873.81px;
+  margin-top: 650px;
+  height: 1197px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,21 +15,28 @@
 }
 
 .coreTechnologies .heading {
-  font-size: 49px;
-  margin-bottom: 29.2px;
+  text-align: left;
+  font: normal normal 600 40px/50px Poppins;
+  margin-bottom: 40px;
 }
 
 .coreTechnologies .subheading {
-  width: 704.8px;
-  font-size: 12.6px;
+  width: 881px;
   text-align: center;
-  margin-bottom: 26.28px;
+  font: normal normal 300 18px/32px Poppins;
+  margin-bottom: 36px;
 }
 
-.coreTechnologies .rectangle {
-  height: 59.13px;
-  width: 555.2px;
-  background-color: #16B2FF17;
+.coreTechnologies .rectangley {
+  background: white 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 40px 60px #0E77FF26;
+          box-shadow: 0px 40px 60px #0E77FF26;
+  border-radius: 72px;
+  margin-top: 36px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 694px;
+  height: 81px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,19 +46,30 @@
       -ms-flex-align: center;
           align-items: center;
   border-radius: 72px;
-  margin-bottom: 99.28px;
+  margin-bottom: 136px;
+  font: normal normal normal 20px/50px Poppins;
 }
 
-.coreTechnologies .rectangle .left {
-  margin-left: 59.2px;
+.coreTechnologies .rectangley .left {
+  text-align: left;
 }
 
-.coreTechnologies .rectangle .middle {
+.coreTechnologies .rectangley .lr-brdr {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 239px;
+  height: 45px;
+}
+
+.coreTechnologies .rectangley .middle {
   color: #81B7FF;
 }
 
-.coreTechnologies .rectangle .right {
-  margin-right: 59.2px;
+.coreTechnologies .rectangley .right {
+  text-align: right;
 }
 
 .coreTechnologies .icons {
@@ -65,7 +84,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 60%;
+  width: 80%;
 }
 
 .coreTechnologies .icons .blue {
@@ -74,15 +93,15 @@
 }
 
 .coreTechnologies .icons .square {
-  height: 84px;
-  width: 84px;
+  height: 140px;
+  width: 140px;
   border-radius: 9px;
-  margin-right: 40px;
+  margin-bottom: 51px;
+  margin-right: 77px;
   display: -ms-grid;
   display: grid;
   place-items: center;
   border: 1px solid #0E77FF;
-  margin-bottom: 37.23px;
 }
 
 .coreTechnologies .icons .square img {

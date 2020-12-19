@@ -9,18 +9,30 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 3;
+  background: white;
+}
+
+.caseStudies .bg-img-casestudies {
+  position: absolute;
+  z-index: 0;
+  top: 7200px;
+  left: -110.42431640625px;
+  width: 2068px;
+  height: 907px;
 }
 
 .caseStudies .heading {
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 13.87px;
+  text-align: left;
+  font: normal normal 600 40px/50px Poppins;
+  margin-bottom: 19px;
 }
 
 .caseStudies .subtext {
-  width: 704.8px;
+  width: 881px;
   text-align: center;
-  margin-bottom: 45.99px;
+  font: normal normal 300 18px/32px Poppins;
+  margin-bottom: 63px;
 }
 
 .caseStudies .row {
@@ -32,32 +44,33 @@
 
 .caseStudies .caseCard {
   height: 100%;
-  width: 415.2px;
+  width: 519px;
   border-radius: 12px 12px 0px 0px;
-  margin-right: 32.8px;
-}
-
-.caseStudies .caseCard img {
-  width: 415.2px;
-  height: 222.65px;
+  margin-right: 41px;
 }
 
 .caseStudies .caseCard .iwp {
-  font-size: 16.8px;
-  font-weight: medium;
+  width: 253px;
+  margin-top: 41px;
+  text-align: left;
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 600;
 }
 
 .caseStudies .caseCard .cntnt {
-  margin-top: 14.8993px;
-  font-size: 11.2px;
-  width: 356.248px;
+  margin-top: 20.41px;
+  width: 445px;
+  text-align: left;
+  font: normal normal 300 16px/30px Poppins;
 }
 
-.caseStudies .rectangle {
-  margin-top: 62.05px;
-  margin-bottom: 183.23px;
-  width: 191.2px;
-  height: 52.56px;
+.caseStudies .rectanglea {
+  font: normal normal normal 25px/31px Muli;
+  margin-top: 85px;
+  margin-bottom: 251px;
+  width: 239px;
+  height: 72px;
   border-radius: 35px;
   border: 2px solid #0E77FF;
   display: -ms-grid;
@@ -70,18 +83,26 @@
 }
 
 .caseStudies .lefti {
-  margin-left: 112px;
-  margin-right: 32.8px;
+  margin-left: 140px;
+  margin-right: 41px;
+}
+
+.caseStudies .midd {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 0px 40px #0E77FF26;
+          box-shadow: 0px 0px 40px #0E77FF26;
 }
 
 .caseStudies .righti {
-  margin-right: 112px;
-  margin-left: 32.8px;
+  margin-right: 140px;
+  margin-left: 41px;
 }
 
 .caseStudies .read-more {
   color: #0E77FF;
-  margin-top: 5.6283px;
+  margin-top: 7.71px;
+  text-align: left;
+  font: normal normal normal 20px/47px Poppins;
 }
 
 .caseStudies .read-more .row {
@@ -94,17 +115,17 @@
 }
 
 .caseStudies .read-more .row .arr {
-  width: 5.584px;
-  height: 8.9352px;
+  width: 6.98px;
+  height: 12.24px;
   -webkit-filter: invert(34%) sepia(86%) saturate(2650%) hue-rotate(203deg) brightness(98%) contrast(106%);
           filter: invert(34%) sepia(86%) saturate(2650%) hue-rotate(203deg) brightness(98%) contrast(106%);
 }
 
 .caseStudies .sm-box {
-  margin-left: 31.872px;
+  margin-left: 39.84px;
 }
 
 .caseStudies .rdmr {
-  margin-left: 8.312px;
+  margin-left: 10.39px;
 }
 /*# sourceMappingURL=CaseStudies.css.map */

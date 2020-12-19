@@ -1,12 +1,12 @@
 .card-box {
-  min-width: 303.2px;
-  min-height: 254.04px;
+  min-width: 379px;
+  min-height: 348px;
   margin: 2px;
 }
 
 .card-box .rectangle {
-  height: 32.85px;
-  width: 96.8px;
+  width: 121px;
+  height: 45px;
   background-color: #16B2FF17;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,24 +20,29 @@
   border-radius: 31px;
   font: normal normal 600 20px/50px Poppins;
   color: #0E77FF;
-  margin-bottom: 19.71px;
+  margin-bottom: 27px;
 }
 
 .card-box img {
-  margin-top: 9.49px;
-  margin-bottom: 12.41px;
+  margin-top: 13px;
+  margin-bottom: 17px;
 }
 
 .card-box .heading {
-  font-family: Poppins;
-  font-size: 25.2px;
+  text-align: left;
+  font: normal normal 600 36px/50px Poppins;
+  color: #292929;
 }
 
 .card-box .subtext {
-  width: 288px;
-  font-family: Poppins;
+  width: 379px;
   text-align: left;
-  margin-bottom: 14.6px;
-  font-size: 11.2px;
+  font: normal normal normal 16px/25px Poppins;
+  margin-bottom: 20px;
+}
+
+.card-box .selectedd {
+  background-color: #0E77FF;
+  color: white;
 }
 /*# sourceMappingURL=Card.css.map */

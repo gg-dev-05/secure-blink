@@ -1,11 +1,103 @@
 .sendUsMessage {
-  width: 597.6px;
-  height: 610.28px;
-  background: red;
-  padding-top: 73px;
+  padding-bottom: 41px;
+  z-index: 3;
+  position: absolute;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 40px 60px #0E77FF26;
+          box-shadow: 0px 40px 60px #0E77FF26;
+  opacity: 1;
+  top: 8400px;
+  left: 892px;
+  width: 747px;
+  height: 836px;
+  padding-top: 100px;
 }
 
 .sendUsMessage .heading {
-  background: green;
+  text-align: left;
+  font: normal normal 600 36px/50px Poppins;
+  margin-top: 100px;
+  margin-left: 88px;
+  margin-bottom: 44px;
+}
+
+.sendUsMessage .txt {
+  margin-left: 96px;
+  text-align: left;
+  font: normal normal normal 20px/24px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.sendUsMessage .txt-bx {
+  margin-top: 70px;
+  margin-left: 96px;
+  text-align: left;
+  font: normal normal normal 20px/24px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.sendUsMessage hr {
+  width: 560px;
+}
+
+.sendUsMessage .mgt {
+  margin-top: 52px;
+}
+
+.sendUsMessage .agree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 91px;
+}
+
+.sendUsMessage .agree .sq {
+  width: 29px;
+  height: 29px;
+  border: 1px solid black;
+  margin-right: 13px;
+}
+
+.sendUsMessage .agree .agr {
+  width: 317px;
+  font: normal normal normal 14px/18px Segoe UI;
+}
+
+.sendUsMessage #rectangleq {
+  margin-top: 39px;
+  margin-left: 91px;
+  height: 72px;
+  width: 239px;
+  background-color: #0E77FF;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50px;
+}
+
+.sendUsMessage #rectangleq .content {
+  font-size: 25px;
+  width: 134px;
+  font-family: Muli;
+  padding-right: 0px;
+  text-align: center;
+}
+
+.sendUsMessage #rectangleq .arrow {
+  width: 6.98px;
+  height: 12.25px;
+  margin: 0px;
+  -webkit-filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(150deg) brightness(104%) contrast(101%);
+          filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(150deg) brightness(104%) contrast(101%);
 }
 /*# sourceMappingURL=SendUsMessage.css.map */

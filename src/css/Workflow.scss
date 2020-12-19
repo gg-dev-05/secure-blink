@@ -5,11 +5,14 @@
     align-items: center;
     justify-content: center;
     .heading {
-        font: normal normal 600 0.7*40px Poppins;
+        text-align: left;
+        font: normal normal 600 40px/50px Poppins;
     }
     .content {
-        margin-top: $y*21px;
+        margin-top: 21px;
+        width: 814px;
+        height: 75px;
         text-align: center;
-        width: $x*814px;
+        font: normal normal normal 16px/25px Poppins;
     }
 }

@@ -1,18 +1,21 @@
-@import'../globals/global';
 #rectangle {
-    height: $y*72px;
-    width: $x*239px;
+    height: 72px;
+    width: 239px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
     .content {
-        font-size: 0.7*25px;
-        margin-right: $x*8.84px;
+        font-size: 25px;
+        width: 134px;
+        font-family: Muli;
+        padding-right: 0px;
+        text-align: center;
     }
-    .arrow:last-child {
-        position: relative;
-        left: -2px;
+    .arrow {
+        width: 6.98px;
+        height: 12.25px;
+        margin: 0px;
     }
 }

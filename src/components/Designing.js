@@ -7,10 +7,10 @@ export default function Designing() {
         <div className="designing">
             <div className="heading">
                 <img className="Group35621" src={Group35621} />
-                <h1>UI/UX Designing</h1>
+                <div className="head-des">UI/UX Designing</div>
             </div>
 
-            <div className="subheading">
+            <div className="subheadingss">
                 Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam ex odio, is the turpis accu msan congue euisque blandit dui Pelle ntesque habitant.
             </div>
 

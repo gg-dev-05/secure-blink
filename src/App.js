@@ -13,11 +13,13 @@ import CoreTechnologies from './components/CoreTechnologies'
 import Customers from './components/Customers'
 import CaseStudies from './components/CaseStudies'
 import Footer from './components/Footer'
-
-import heading1 from './assets/Web Design Web Development by SB.svg'
-import subheading1 from './assets/Our products are fully custom-made, built with the latest technologies and cloud-architectures..svg'
-import messageUs from './assets/Group 35686.svg'
 import SendUsMessage from './components/SendUsMessage';
+
+import messageUs from './assets/Group 35686.svg'
+import Group35650 from './assets/Group 35650.svg'
+import Group35700 from './assets/Group 35700.svg'
+import Path37456 from './assets/Path 37456.svg'
+
 
 
 
@@ -31,9 +33,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <img id="heading1" src={heading1} />
+
+
+
       <br />
-      <img id="subheading1" src={subheading1} />
+      <div className="headings01">Web Design Web Development by SB</div>
+      <div className="subheadings01">Our products are fully custom-made, built with the latest technologies and cloud-architectures.</div>
       <div className="getStarted">
         <GetStartedButton />
       </div>
@@ -43,12 +48,18 @@ function App() {
         <Group35699 />
         <AboutUs />
         <OurServices />
-        <Designing />
       </div>
-
+      <Designing />
+      <div className="blue-dots">
+        <img src={Group35650} />
+      </div>
       <div className="page3">
         <Workflow />
         <CardColumn />
+      </div>
+
+      <div className="_3w-2b-tri">
+        <img src={Group35700} />
       </div>
 
       <div className="page4">
@@ -58,19 +69,24 @@ function App() {
 
       <div className="page5">
         <CaseStudies />
+
+
+        <div className="footer">
+          <Footer />
+        </div>
       </div>
 
       <div className="page6">
         <div className="message-img">
           <img src={messageUs} />
         </div>
-
-        {/* <SendUsMessage /> */}
+        <div className="msg-img-bg">
+          <img src={Path37456} />
+        </div>
+        <SendUsMessage />
       </div>
 
-      <div className="footer">
-        <Footer />
-      </div>
+
     </div>
 
   );

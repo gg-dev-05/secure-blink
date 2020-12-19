@@ -1,13 +1,31 @@
 .cardColumn {
-  margin-top: 130.67px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-top: 160px;
+}
+
+.card-shadow {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 30px 60px #0E77FF26;
+          box-shadow: 0px 30px 60px #0E77FF26;
+  padding-left: 71px;
+  padding-right: 69px;
+  padding-bottom: 88px;
+}
+
+.c1 {
+  position: absolute;
+  top: 4159px;
+  left: 280px;
+}
+
+.c2 {
+  position: absolute;
+  top: 4182px;
+  left: 700px;
+}
+
+.c3 {
+  position: absolute;
+  top: 4159px;
+  left: 1260px;
 }
 /*# sourceMappingURL=CardColumn.css.map */

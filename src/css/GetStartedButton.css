@@ -1,6 +1,6 @@
 #rectangle {
-  height: 52.56px;
-  width: 191.2px;
+  height: 72px;
+  width: 239px;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,12 +15,16 @@
 }
 
 #rectangle .content {
-  font-size: 17.5px;
-  margin-right: 7.072px;
+  font-size: 25px;
+  width: 134px;
+  font-family: Muli;
+  padding-right: 0px;
+  text-align: center;
 }
 
-#rectangle .arrow:last-child {
-  position: relative;
-  left: -2px;
+#rectangle .arrow {
+  width: 6.98px;
+  height: 12.25px;
+  margin: 0px;
 }
 /*# sourceMappingURL=GetStartedButton.css.map */

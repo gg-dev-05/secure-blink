@@ -15,12 +15,15 @@
 }
 
 .workflow .heading {
-  font: normal normal 600 28px Poppins;
+  text-align: left;
+  font: normal normal 600 40px/50px Poppins;
 }
 
 .workflow .content {
-  margin-top: 15.33px;
+  margin-top: 21px;
+  width: 814px;
+  height: 75px;
   text-align: center;
-  width: 651.2px;
+  font: normal normal normal 16px/25px Poppins;
 }
 /*# sourceMappingURL=Workflow.css.map */

@@ -14,12 +14,13 @@ export default function CoreTechnologies() {
     return (
         <div className="coreTechnologies">
             <div className="heading">Core Technologies</div>
-            <div className="subheading">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia minus amet sed enim repudiandae vero aliquam ullam nesciunt architecto corporis corrupti, non in provident minima maxime! Doloremque officia hic expedita!</div>
-            <div className="rectangle">
+            <div className="subheading">Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam ex odio, is the turpis accu msan congue euisque blandit dui Pelle ntesque habitant.</div>
+            <div className="rectangley">
                 <div className="left">Design</div>
-                <div>|</div>
-                <div className="middle">Development</div>
-                <div>|</div>
+                <div className="lr-brdr">
+                    <div className="middle">Development</div>
+
+                </div>
                 <div className="right">Marketing</div>
             </div>
 

@@ -12,7 +12,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 467.2px;
+  width: 584px;
 }
 
 .aboutUs .row {
@@ -25,18 +25,60 @@
 }
 
 .aboutUs .subHeading {
+  font: normal normal 600 25px/50px Poppins;
   color: #0E77FF;
 }
 
 .aboutUs .mainHeading {
-  font-size: 40px;
+  margin-top: 8px;
+  font: normal normal 600 40px/50px Poppins;
+  margin-bottom: 42px;
 }
 
 .aboutUs .content1 {
-  font-size: 22px;
+  width: 584.5px;
+  text-align: left;
+  font: normal normal normal 22px/32px Poppins;
 }
 
-.aboutUs .content1 {
-  font-size: 18px;
+.aboutUs .content2 {
+  margin-top: 28px;
+  width: 585px;
+  text-align: left;
+  font: normal normal 300 18px/32px Poppins;
+  margin-bottom: 42px;
+}
+
+.aboutUs #rectanglee {
+  height: 72px;
+  width: 239px;
+  border: 2px solid #0E77FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 35px;
+}
+
+.aboutUs #rectanglee .contentt {
+  font-size: 25px;
+  width: 134px;
+  font-family: Muli;
+  padding-right: 0px;
+  text-align: center;
+  color: #0E77FF;
+}
+
+.aboutUs #rectanglee .arrow {
+  width: 6.98px;
+  height: 12.25px;
+  margin: 0px;
+  -webkit-filter: invert(60%) sepia(100%) saturate(6785%) hue-rotate(212deg) brightness(113%) contrast(103%);
+          filter: invert(60%) sepia(100%) saturate(6785%) hue-rotate(212deg) brightness(113%) contrast(103%);
 }
 /*# sourceMappingURL=AboutUs.css.map */

@@ -1,14 +1,33 @@
 .customers {
+  margin-top: 0px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 4fr 6fr;
-      grid-template-columns: 4fr 6fr;
+  -ms-grid-columns: 5fr 6fr;
+      grid-template-columns: 5fr 6fr;
   -webkit-column-gap: 80px;
           column-gap: 80px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 669.41px;
+  height: 917px;
+}
+
+.customers .white-dots-cust {
+  position: absolute;
+  top: 5885px;
+  left: 729px;
+  width: 275px;
+  height: 473px;
+  -webkit-transform: matrix(0, 1, -1, 0, 0, 0);
+          transform: matrix(0, 1, -1, 0, 0, 0);
+}
+
+.customers .blue-dots-cust {
+  position: absolute;
+  top: 6693px;
+  left: 1634px;
+  width: 572px;
+  height: 572px;
 }
 
 .customers .image {
@@ -48,44 +67,60 @@
   width: 80%;
 }
 
-.customers .text .row {
+.customers .text {
+  z-index: 3;
+}
+
+.customers .text .roww {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+.customers .text .roww img {
+  width: 38px;
+  height: 47px;
 }
 
 .customers .text .subHeading {
+  text-align: left;
+  font: normal normal 600 25px/50px Poppins;
+  letter-spacing: 0px;
   color: #0E77FF;
-  font-size: 17.5px;
+  margin-left: 8.99px;
+  margin-bottom: 18px;
 }
 
 .customers .text .heading {
-  margin-top: 13.14px;
-  margin-bottom: 45.26px;
-  font-size: 25.2px;
-  font-weight: 600;
-  width: 318.4px;
+  text-align: left;
+  font: normal normal 600 36px/50px Poppins;
+  letter-spacing: 0px;
+  color: #292929;
+  width: 398px;
+  height: 101px;
+  margin-bottom: 62px;
 }
 
 .customers .text .more-text {
-  width: 496.8px;
-  line-height: 29.2px;
-  font-size: 12.6px;
-  margin-bottom: 36.6825px;
+  width: 621px;
+  height: 148px;
+  text-align: left;
+  font: normal normal 300 18px/40px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 50.25px;
 }
 
 .customers .text .react-icon {
-  width: 64px;
-  height: 58.4px;
+  width: 81px;
+  height: 72px;
   -webkit-filter: brightness(0%) saturate(100%);
           filter: brightness(0%) saturate(100%);
-  margin-bottom: 40.88px;
+  margin-bottom: 56.32px;
 }
 
 .customers .text .arrows img {
-  width: 128.8px;
+  width: 162px;
+  height: 57px;
 }
 /*# sourceMappingURL=Customers.css.map */

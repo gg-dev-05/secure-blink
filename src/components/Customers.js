@@ -4,17 +4,25 @@ import arrow from '../assets/Group 35624.svg'
 import react from '../assets/React-icon.svg'
 import image from '../assets/Ellipse 216.png'
 import arrows from '../assets/Group 35601.svg'
+import Group35648 from '../assets/Group 35648.svg'
+import Group35649 from '../assets/Group 35649.svg'
 
 export default function Customers() {
     return (
         <div className="customers">
+            <div className="white-dots-cust">
+                <img src={Group35648} />
+            </div>
+            <div className="blue-dots-cust">
+                <img src={Group35649} />
+            </div>
             <div className="image">
                 <div className="white-circle">
                     <img src={image} />
                 </div>
             </div>
             <div className="text">
-                <div className="row">
+                <div className="roww">
                     <img src={arrow} />
                     <div className="subHeading">SELECTED CUSTOMERS</div>
                 </div>

@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AACA,AAAA,WAAW,CAAC;EACR,IAAI,EAAE,KAAK;EACX,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;CACd",
+    "mappings": "AACA,AAAA,WAAW,CAAC;EACR,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,SAAS;EACd,OAAO,EAAE,CAAC;EACV,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;CACjB",
     "sources": [
         "Group35699.scss",
         "../globals/global.scss"

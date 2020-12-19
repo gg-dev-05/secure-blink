@@ -1,33 +1,37 @@
-    @import'../globals/global';
-    .card-box {
-        min-width: $x*379px;
-        min-height: $y*348px;
-        margin: 2px;
-        .rectangle {
-            height: $y*45px;
-            width: $x*121px;
-            background-color: #16B2FF17;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 31px;
-            font: normal normal 600 20px/50px Poppins;
-            color: #0E77FF;
-            margin-bottom: $y*27px;
+        @import'../globals/global';
+        .card-box {
+            min-width: $x*379px;
+            min-height: $y*348px;
+            margin: 2px;
+            .rectangle {
+                width: 121px;
+                height: 45px;
+                background-color: #16B2FF17;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 31px;
+                font: normal normal 600 20px/50px Poppins;
+                color: #0E77FF;
+                margin-bottom: $y*27px;
+            }
+            img {
+                margin-top: 13px;
+                margin-bottom: 17px;
+            }
+            .heading {
+                text-align: left;
+                font: normal normal 600 36px/50px Poppins;
+                color: #292929;
+            }
+            .subtext {
+                width: 379px;
+                text-align: left;
+                font: normal normal normal 16px/25px Poppins;
+                margin-bottom: $y*20px;
+            }
+            .selectedd {
+                background-color: #0E77FF;
+                color: white;
+            }
         }
-        img {
-            margin-top: $y*13px;
-            margin-bottom: $y*17px;
-        }
-        .heading {
-            font-family: Poppins;
-            font-size: 0.7*36px;
-        }
-        .subtext {
-            width: $x*360px;
-            font-family: Poppins;
-            text-align: left;
-            margin-bottom: $y*20px;
-            font-size: 0.7*16px;
-        }
-    }

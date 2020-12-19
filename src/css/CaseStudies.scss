@@ -3,15 +3,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 3;
+    background: white;
+    .bg-img-casestudies {
+        position: absolute;
+        z-index: 0;
+        top: 7200px;
+        left: -110.42431640625px;
+        width: 2068px;
+        height: 907px;
+    }
     .heading {
-        font-size: 0.7*40px;
-        font-weight: 600;
-        margin-bottom: $y*19px;
+        text-align: left;
+        font: normal normal 600 40px/50px Poppins;
+        margin-bottom: 19px;
     }
     .subtext {
-        width: $x*881px;
+        width: 881px;
         text-align: center;
-        margin-bottom: $y*63px;
+        font: normal normal 300 18px/32px Poppins;
+        margin-bottom: 63px;
     }
     .row {
         width: 100%;
@@ -22,21 +33,23 @@
         width: $x*519px;
         border-radius: 12px 12px 0px 0px;
         margin-right: $x*41px;
-        img {
-            width: $x*519px;
-            height: $y*305px;
-        }
         .iwp {
-            font-size: 0.7*24px;
-            font-weight: medium;
+            width: 253px;
+            margin-top: 41px;
+            text-align: left;
+            font-size: 24px;
+            font-family: Poppins;
+            font-weight: 600;
         }
         .cntnt {
-            margin-top: $y*20.41px;
-            font-size: 0.7*16px;
-            width: $x*445.31px;
+            margin-top: 20.41px;
+            width: 445px;
+            text-align: left;
+            font: normal normal 300 16px/30px Poppins;
         }
     }
-    .rectangle {
+    .rectanglea {
+        font: normal normal normal 25px/31px Muli;
         margin-top: $y*85px;
         margin-bottom: $y*251px;
         width: $x*239px;
@@ -49,16 +62,22 @@
         color: #0E77FF;
     }
     .lefti {
-        margin-left: $x*140px;
-        margin-right: $x*41px;
+        margin-left: 140px;
+        margin-right: 41px;
+    }
+    .midd {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 40px #0E77FF26;
     }
     .righti {
-        margin-right: $x*140px;
-        margin-left: $x*41px;
+        margin-right: 140px;
+        margin-left: 41px;
     }
     .read-more {
         color: #0E77FF;
-        margin-top: $y*7.71px;
+        margin-top: 7.71px;
+        text-align: left;
+        font: normal normal normal 20px/47px Poppins;
         .row {
             display: flex;
             align-items: flex-start;

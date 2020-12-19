@@ -12,15 +12,23 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 467.2px;
+  width: 584px;
 }
 
 .ourServices .ml36 {
-  margin-left: 12.8px;
+  margin-left: 36px;
 }
 
 .ourServices .ml23 {
-  margin-left: 6.4px;
+  margin-left: 23px;
+}
+
+.ourServices .mb19 {
+  margin-bottom: 19px;
+}
+
+.ourServices .mb36 {
+  margin-bottom: 36px;
 }
 
 .ourServices .row {
@@ -30,17 +38,26 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 280px;
+}
+
+.ourServices .row img {
+  width: 38px;
+  height: 47px;
 }
 
 .ourServices .subHeading {
+  text-align: left;
+  font: normal normal 600 25px/50px Poppins;
   color: #0E77FF;
 }
 
 .ourServices .mainHeading {
+  margin-top: 11px;
   width: 500px;
-  font-size: 21px;
+  margin-left: 280px;
   font: normal normal 600 40px/50px Poppins;
-  margin-bottom: 36.5px;
+  margin-bottom: 50px;
 }
 
 .ourServices .box {
@@ -48,11 +65,15 @@
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+  margin-left: 280px;
+  text-align: left;
+  font: normal normal 600 20px/50px Poppins;
+  color: #0E77FF;
 }
 
 .ourServices .box .rectangle {
-  height: 52.56px;
-  width: 191.2px;
+  height: 72px;
+  width: 239px;
   background-color: #16B2FF17;
   display: -webkit-box;
   display: -ms-flexbox;
