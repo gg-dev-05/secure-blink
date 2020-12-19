@@ -5,6 +5,8 @@ import tick from '../assets/Group 35604.svg'
 export default function Designing() {
     return (
         <div className="designing">
+
+
             <div className="heading">
                 <img className="Group35621" src={Group35621} alt="bgimg" />
                 <div className="head-des">UI/UX Designing</div>
@@ -31,6 +33,7 @@ export default function Designing() {
                     <div className="item-text">Lorem ipsum dolor sit amet, conse ctetur</div>
                 </div>
             </div>
+
         </div>
     )
 }

@@ -1,13 +1,23 @@
 .backgroundRocket {
-  z-index: -2;
+  z-index: 1;
   height: 10px;
   position: absolute;
-  top: 260.22px;
+  top: 260.220px;
+}
+
+.bg-rectangle {
+  position: absolute;
+  background: #0E77FF;
+  z-index: 7;
+  top: 2360px;
+  left: 1418px;
+  width: 502px;
+  height: 889px;
 }
 
 .bgRocket {
   position: absolute;
-  top: 100px;
+  top: 70px;
   left: -7.999664306640625px;
   width: 1928px;
   height: 941px;
@@ -15,7 +25,7 @@
 
 .circle {
   position: absolute;
-  top: 290px;
+  top: 260px;
   left: 1290px;
 }
 
@@ -23,17 +33,15 @@
   position: absolute;
   z-index: 100;
   color: #FFFFFF;
-  top: 219px;
+  top: -51px;
   left: 1079px;
   width: 46px;
   height: 45px;
-  -webkit-transform: matrix(0.62, 0.79, -0.79, 0.62, 0, 0);
-          transform: matrix(0.62, 0.79, -0.79, 0.62, 0, 0);
 }
 
 .tri2 {
   position: absolute;
-  top: -50px;
+  top: -80px;
   left: 1247px;
   width: 324px;
   height: 285px;
@@ -41,37 +49,31 @@
 
 .tri3 {
   position: absolute;
-  top: 200px;
+  top: 40px;
   left: 999px;
   width: 42px;
   height: 40px;
-  -webkit-transform: matrix(0.39, 0.92, -0.92, 0.39, 0, 0);
-          transform: matrix(0.39, 0.92, -0.92, 0.39, 0, 0);
 }
 
 .tri4 {
   position: absolute;
-  top: 540px;
+  top: 510px;
   left: 631px;
   width: 209px;
   height: 206px;
-  -webkit-transform: matrix(-0.64, -0.77, 0.77, -0.64, 0, 0);
-          transform: matrix(-0.64, -0.77, 0.77, -0.64, 0, 0);
 }
 
 .tri5 {
   position: absolute;
-  top: 422px;
+  top: 220px;
   left: 1680px;
   width: 358px;
   height: 320px;
-  -webkit-transform: matrix(-0.12, 0.99, -0.99, -0.12, 0, 0);
-          transform: matrix(-0.12, 0.99, -0.99, -0.12, 0, 0);
 }
 
 .tri6 {
   position: absolute;
-  top: 899px;
+  top: 869px;
   left: 1532px;
   width: 148px;
   height: 130px;
@@ -83,11 +85,85 @@
 .tri7 {
   position: absolute;
   z-index: 100;
-  top: 1020px;
+  top: 990px;
   left: 1397px;
   width: 718px;
   height: 720px;
   -webkit-transform: matrix(-0.72, 0.69, -0.69, -0.72, 0, 0);
           transform: matrix(-0.72, 0.69, -0.69, -0.72, 0, 0);
+}
+
+.tri8 {
+  position: absolute;
+  top: 15px;
+  left: 1184px;
+  width: 68px;
+  height: 70px;
+  -webkit-transform: matrix(0.79, 0.62, -0.62, 0.79, 0, 0);
+          transform: matrix(0.79, 0.62, -0.62, 0.79, 0, 0);
+}
+
+.tri9 {
+  position: absolute;
+  top: 220px;
+  left: 1184px;
+  width: 46px;
+  height: 53px;
+}
+
+.tri10 {
+  position: absolute;
+  top: 120px;
+  left: 1634px;
+  width: 46px;
+  height: 53px;
+}
+
+.tri11 {
+  position: absolute;
+  top: 370px;
+  left: 1540px;
+  width: 82px;
+  height: 94px;
+}
+
+.tri12 {
+  position: absolute;
+  top: 275px;
+  left: 1023px;
+  width: 82px;
+  height: 94px;
+}
+
+.tri13 {
+  position: absolute;
+  top: 474px;
+  left: 939px;
+  width: 58px;
+  height: 52px;
+}
+
+.tri14 {
+  position: absolute;
+  top: 570px;
+  left: 1639px;
+  width: 62px;
+  height: 60px;
+}
+
+.tri15 {
+  position: absolute;
+  top: 660px;
+  left: 1532px;
+  width: 148px;
+  height: 130px;
+}
+
+.tri16 {
+  position: absolute;
+  top: 670px;
+  left: 1432px;
+  width: 25px;
+  height: 27px;
 }
 /*# sourceMappingURL=BackgroundRocket.css.map */

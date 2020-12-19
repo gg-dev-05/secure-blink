@@ -22,22 +22,10 @@ import Path37456 from './assets/Path 37456.svg'
 import Path37660 from './assets/Path 37660.svg'
 
 
-
-
-
-
-
-
-
-
-
 function App() {
   return (
     <div className="App">
       <Navbar />
-
-
-
       <br />
       <div className="headings01">Web Design Web Development by SB</div>
       <div className="subheadings01">Our products are fully custom-made, built with the latest technologies and cloud-architectures.</div>

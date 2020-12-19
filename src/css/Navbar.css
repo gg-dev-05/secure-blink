@@ -22,7 +22,9 @@
 }
 
 .navbar #rectangle {
-  background-color: white;
+  width: 159px;
+  height: 53px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
   border-radius: 5px;
   color: black;
   display: -ms-grid;
