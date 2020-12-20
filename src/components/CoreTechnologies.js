@@ -8,7 +8,7 @@ import js from '../assets/Path 37520.svg'
 import g10 from '../assets/g10.svg'
 import aws_blue from '../assets/Amazon_Web_Services_Logo-1.svg'
 import node from '../assets/Mask Group 3.svg'
-import firebase from '../assets/_Path_3.svg'
+import firebase from '../assets/firebase.svg'
 
 export default function CoreTechnologies() {
     return (
